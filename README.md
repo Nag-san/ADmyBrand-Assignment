@@ -2,7 +2,7 @@
 
 An AI-powered marketing analytics dashboard designed for digital marketing teams and agencies. Built using modern web technologies with a focus on performance, usability, and beautiful design.
 
-Live Demo → [https://admybrand-insights.vercel.app](https://admybrand-insights.vercel.app)
+Live Demo → [https://a-dmy-brand-assignment-livid.vercel.app/](https://a-dmy-brand-assignment-livid.vercel.app/)
 
 ---
 
@@ -65,8 +65,7 @@ http://localhost:3000
 
 Deployed using Vercel with GitHub CI/CD integration.
 
-URL: [https://admybrand-insights.vercel.app](https://admybrand-insights.vercel.app)
-
+URL: [https://a-dmy-brand-assignment-livid.vercel.app/](https://a-dmy-brand-assignment-livid.vercel.app/)
 To deploy your own version:
 
 Push your code to GitHub
