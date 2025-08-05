@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ADmyBRAND Insights 💡📊
 
-## Getting Started
+An AI-powered marketing analytics dashboard designed for digital marketing teams and agencies. Built using modern web technologies with a focus on performance, usability, and beautiful design.
 
-First, run the development server:
+Live Demo → [https://admybrand-insights.vercel.app](https://admybrand-insights.vercel.app)
+
+---
+
+## Features
+
+- **Interactive Charts** – Line, Bar, Pie, Funnel (via Recharts)
+- **Custom Theme System** – Full dark/light mode with Tailwind CSS and OKLCH color palette
+- **InsightsSpotlight** – AI-generated marketing insights component
+- **Filterable Tables** – Paginated and sortable user data tables
+- **Drag-and-Drop Layout** – Grid layout with persistence via `localStorage`
+- **Framer Motion Animations** – Smooth transitions for layout and UI
+- **Modern UI Design** – Glassmorphism, neumorphism, soft shadows
+- **Responsive Design** – Optimized for desktop and mobile dashboards
+
+---
+
+## Tech Stack
+
+| Tech         | Purpose                                |
+|--------------|-----------------------------------------|
+| **Next.js**  | React Framework for SSR and routing     |
+| **TypeScript** | Static typing                          |
+| **Tailwind CSS** | Utility-first styling + custom themes |
+| **Recharts** | Flexible chart components               |
+| **Framer Motion** | Page and element animations         |
+| **Lucide Icons** | Minimal, elegant icons               |
+| **@tanstack/react-table** | Dynamic tables              |
+
+---
+
+## Setup Instructions
 
 ```bash
+# 1. Clone the repo
+git clone https://github.com/YOUR_USERNAME/admybrand-insights.git
+cd admybrand-insights
+
+# 2. Install dependencies
+npm install
+
+# 3. Run locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# 4. Open your browser
+http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Folder Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- /app              → App routes and pages
+- /components       → Reusable UI and dashboard widgets
+- /lib              → Utility functions and localStorage
+- /styles/globals   → Global styles and Tailwind theme
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deployed using Vercel with GitHub CI/CD integration.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+URL: [https://admybrand-insights.vercel.app](https://admybrand-insights.vercel.app)
 
-## Deploy on Vercel
+To deploy your own version:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Push your code to GitHub
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Connect repo on vercel.com
+
+Vercel auto-builds & deploys on each commit
+
+---
+
+## Author
+
+Nagraj Math
+Java Backend Developer | Fullstack Enthusiast
+
+[LinkedIn](www.linkedin.com/in/nagrajsmath) · [GitHub](https://github.com/Nag-san)
+
