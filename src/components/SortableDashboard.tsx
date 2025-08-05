@@ -20,7 +20,7 @@ import {
 import { CSS } from "@dnd-kit/utilities";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { X, RotateCw } from "lucide-react";
+import { X } from "lucide-react";
 import { motion } from "framer-motion";
 
 interface Widget {

@@ -12,8 +12,16 @@ import {
 export function SegmentFilter() {
   const { segment, setSegment } = useSegmentFilter();
 
+  type Segment =
+    | "All"
+    | "Organic"
+    | "Paid Ads"
+    | "Referral"
+    | "Social Media"
+    | "Email";
+
   return (
-    <Select value={segment} onValueChange={(v) => setSegment(v as any)}>
+    <Select value={segment} onValueChange={(v: Segment) => setSegment(v)}>
       <SelectTrigger className="w-[200px]">
         <SelectValue placeholder="Select segment" />
       </SelectTrigger>

@@ -10,7 +10,6 @@ import {
 
 import { useState } from "react";
 import { DateRangePicker } from "@/components/DateRangePicker";
-import { ThemeToggle } from "@/components/ThemeToggle"; // ✅ Make sure you import your custom toggle
 import { Menu, LineChart, Settings, LogOut, BarChartBig } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
